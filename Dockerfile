@@ -21,7 +21,7 @@ RUN cd obfs4proxy && \
 ############################
 # 2) Runtime image with Tor
 ############################
-FROM alpine:3.23.4
+FROM alpine:3.23.5
 
 RUN apk add --no-cache \
       tor \
